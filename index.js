@@ -45,7 +45,7 @@ app.use(bodyParser.json());
 // Mount our routes behind /api/ prefix
 app.use('/api', books);
 app.use('/api', authors);
-app.use('/products', productComponent );
+app.use('/users', userComponent );
 
 // Simple hello world route
 app.get('/', function(req, res) {

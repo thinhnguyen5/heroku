@@ -12,9 +12,7 @@ let users = [
     }
 ]
 
-router.get('/', (req, res) => {
-    res.status(200).json(users);
-});
+
 
 //register
 router.post('/register', (req, res) => {

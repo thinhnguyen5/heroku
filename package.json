@@ -1,0 +1,23 @@
+{
+  "name": "heroku-nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial app to set up nodejs to heroku and to build heroku pipelines via github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassehav-oamk/heroku-tutorial.git"
+  },
+  "author": "Lasse Haverinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lassehav-oamk/heroku-tutorial/issues"
+  },
+  "homepage": "https://github.com/lassehav-oamk/heroku-tutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.17.1"
+  }
+}

@@ -20,6 +20,10 @@ app.get('/', function(req, res) {
     res.send("Hello class, this is automatic deploy demo");
 });
 
+app.get('/test', function(req, res) {
+    res.send("Hi");
+});
+
 
 
 // start listening for incoming HTTP connections
